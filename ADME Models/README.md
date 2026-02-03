@@ -1,4 +1,6 @@
-Scripts for training XGBoost models (with early stopping) for each endpoint are provided.
+## ADME Training scripts
+
+### Scripts for training XGBoost models (with early stopping) for each ADME endpoint 
 
 - feature generation from input SMILES dataset;
 - k-fold cross-validation for hyperparameter optimization;
@@ -15,4 +17,6 @@ Endpoint training scripts:
 4. MLM  [MLM_final.py]
 5. MDR1-MDCKII [LMDR1_final.py]
 
-Ensemble strategy -- common to all endpoints [Ensemble_final.py]
+### Ensemble script
+The ensemble strategy is common to all endpoints and a unified script was used for this purpose [Ensemble_final.py].
+Please refer to our manuscript for details.
