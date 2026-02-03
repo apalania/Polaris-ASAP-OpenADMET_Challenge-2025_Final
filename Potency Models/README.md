@@ -2,7 +2,7 @@
 
 1. **_Pretrained_GNN-transformer_ChEMBL_random-split.py_**:
 
-Script for training the baseline model of potency prediction using ligand-protein pairs discovered from ChEMBL - UniProt.
+Script for training baseline models of potency prediction using ligand-protein pairs discovered from ChEMBL - UniProt.
 
 2. **_Fine-tuned_GPFT_T-stratified_random.py_; _Fine-tuned_GPFT_T-stratified_scaffold.py_**:
 
