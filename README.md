@@ -10,7 +10,7 @@ The ADME endpoints considered include:
 4. MLM - Mouse liver microsomal clearance
 5. MDR1-MDCKII permeability
 
-Potency modeling was considered against the SAR-Cov2 and MERS-CoV main protease (Mpro) enzyme.
+Potency modeling was considered against the SAR-Cov2 and MERS-CoV main protease (_M<sup>Pro</sup>_) enzyme.
 
 Our original contribution to the challenge can be found [here](https://github.com/apalania/Polaris_ASAP-Challenge-2025) and a corresponding discussion [here](https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-1tb2m).
 
