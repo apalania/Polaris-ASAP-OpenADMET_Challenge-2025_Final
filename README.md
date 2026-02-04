@@ -17,6 +17,6 @@ If you are interested in our original contribution to the challenge, it can be f
 Models themselves (for inference) could be found on huggingface.
 
 ## Team SystemsCBLab members:
-1. Mounika Sri Lakskmi Mallepulla [UG student]
-2. Ida Priyadarshini T [PhD Student]
+1. Ida Priyadarshini T [PhD candidate]
+2. Mounika Srilakskmi Mallepulla [UG student]
 3. Ashok Palaniappan, Ph.D (PI)
