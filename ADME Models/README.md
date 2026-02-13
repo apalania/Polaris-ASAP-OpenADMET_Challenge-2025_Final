@@ -20,3 +20,5 @@ Endpoint training scripts:
 ### Ensemble script
 The ensemble strategy is common to all endpoints and a unified script was used for this purpose [Ensemble_final.py].
 Please refer to our manuscript for details.
+
+Please see the Usage_notes.md for using the scripts.
