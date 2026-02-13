@@ -18,3 +18,9 @@ The fine-tuning dataset and the domain-specific dataset for training from scratc
 
 In addition, a dataset of 30,220 protein-ligand pairs curated from ChEMBL by searching for ligands with IC50 values and retrieving sequences of the corresponding target proteins from UniProt, is also shared. This dataset was compiled using the scripts provided in Supplementary File S4 (with our manuscript) and is used for pre-training a protein-ligand AttFPGNN-transformer baseline model. (Potency-ChEMBL-UniProt_Protein-Ligand_Dataset.csv)
 
+### Antivirals-specific Descriptors used by the models / scripts
+
+- descriptors_55.txt: feature space used in classifier model of antivirals vs non-antivirals 
+
+- descriptors_25.txt: reduced feature space obtained by recursive feature elimination with decision trees
+
