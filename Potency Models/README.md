@@ -19,3 +19,5 @@ Implementations for the Ensemble methods for the various model classes, to deter
 8. **_XGBoost-models_25D-55D_docking_random-scaffold.py_**:
 
 Script for training a model classical ML -- XGBoost with 25 or 55 antivirals-specific descriptors. The option to include docking scores is contained in the script. Since there are a few instances whose docking scores could not be computed, a binary flag (_has_docking_) is included in the feature space when docking scores are available in docking-enhanced XGBoost models. Both random and scaffold splits are available in a complete unified script. 
+
+Please consult the [Usage_notes](https://github.com/apalania/Polaris-ASAP-OpenADMET2025/blob/main/Potency%20Models/Usage_notes.md) for using the scripts.
