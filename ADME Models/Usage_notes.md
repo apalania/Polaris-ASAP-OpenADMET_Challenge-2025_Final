@@ -19,6 +19,12 @@ Similarly, create the {endpoint}_files in the path of the scripts. There are two
 
 ## Output Files:
 
+- Descriptor Files (cached, reused across splits)
+
+  - `descriptors_{DataSource}_{Descriptors}.csv`
+
+    - SMILES + computed molecular descriptors
+
 - Model Files (10 per experiment):
   
   - model_{config_name}\_split_{0-9}.pth
