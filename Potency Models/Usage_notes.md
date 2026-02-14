@@ -97,6 +97,6 @@
 
 | File Name | Columns | Description |
 |-----------|---------|-------------|
-| final_test_predictions.csv | SMILES, protein_sequence, True values (pIC50, IC50 nM), GNN predictions, XGBoost predictions, Stacked predictions, Absolute errors | Comprehensive predictions with all model outputs |
+| final_test_predictions.csv | SMILES, protein_sequence, True values (pIC50, IC50 nM), GNN predictions, XGBoost predictions, Stacked predictions, Absolute errors for stacked model | Comprehensive predictions with all model outputs |
 | stacking_ridge_model.pth | N/A | Saved stacking model |
 
