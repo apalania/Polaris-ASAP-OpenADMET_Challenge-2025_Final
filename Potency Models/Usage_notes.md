@@ -87,11 +87,11 @@
 | scaler_xgb_target_specific_scaffold_55desc_dock.pkl | XGB_Scaffold_Potency/ | N/A | Feature scaler |
 | enhanced_scaffold_split_indices.json | Enhanced_GNN_Scaffold/ | N/A | Split indices |
 | enhanced_Target_Random_best_model.pt | Enhanced_GNN_Random/ | N/A | Trained GNN model |
-| polaris_train.csv | Current directory | SMILES OR canonical_smiles OR ligand_smiles, PROTEIN_SEQ OR PROTEIN OR TARGET OR protein_sequence, IC50 OR logIC50 OR pIC50 | Training dataset |
-| polaris_unblinded_test.csv | Current directory | Same as train | Test dataset |
-| descriptors_25.txt | Current directory | N/A | Molecular descriptor names |
-| train_docking_scores.csv  | Current directory | Docking scores (optional) | Docking scores for holdout |
-| test_docking_scores.csv  | Current directory | Docking scores (optional) | Docking scores for test |
+| polaris_train.csv | . | SMILES OR canonical_smiles OR ligand_smiles, PROTEIN_SEQ OR PROTEIN OR TARGET OR protein_sequence, IC50 OR logIC50 OR pIC50 | Training dataset |
+| polaris_unblinded_test.csv | . | Same as train | Test dataset |
+| descriptors_25.txt | . | N/A | Molecular descriptor names |
+| train_docking_scores.csv  | . | Docking scores (optional) | Docking scores for holdout |
+| test_docking_scores.csv  | . | Docking scores (optional) | Docking scores for test |
 
 ### Outputs
 
