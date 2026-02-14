@@ -1,4 +1,4 @@
-## Inputs to the scripts:
+## Inputs to the training scripts:
 
 For each script, locate the code section with the file names. For example, in the case of LogD: 
 
@@ -37,7 +37,7 @@ Similarly, create the {endpoint}_files in the path of the scripts. There are two
 
 ### Inputs
 
-#### 1. Ground Truth Data (in unblind_data/ directory)
+#### 1. Ground Truth Data (in dir: unblind_data/ )
 
 **Files:** `{ENDPOINT}_unblind.csv` for each endpoint
 
@@ -47,7 +47,7 @@ Similarly, create the {endpoint}_files in the path of the scripts. There are two
 - SMILES column
 - Target column matching endpoint name (e.g., HLM, KSOL, etc.)
 
-#### 2. Metrics Files (in results_{ENDPOINT}/ directories)
+#### 2. Metrics Files (in results_{ENDPOINT}/ )
 
 **Files:** `{ENDPOINT}_HOLDOUT_LOG10.csv`
 
@@ -56,9 +56,9 @@ Similarly, create the {endpoint}_files in the path of the scripts. There are two
 - Seed (split number)
 - MAE, MSE, R2, PEARSON_R, SPEARMAN_R
 
-#### 3. Prediction Files (various patterns searched)
+#### 3. Prediction Files 
 
-**Pattern:** `predictions_{endpoint}_{dataset}_{features}_{strategy}_split_{split}_test.csv`
+**Accepted filename patterns:** `predictions_{endpoint}_{dataset}_{features}_{strategy}_split_{split}_test.csv`
 
 **Must contain:**
 - SMILES column
